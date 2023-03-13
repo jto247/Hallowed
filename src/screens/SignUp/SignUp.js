@@ -2,11 +2,13 @@ import {View, Text, StyleSheet, ScrollView} from 'react-native';
 import React, {useState} from 'react';
 import CustomInput from '../../components/CustomInput';
 import CustomBotton from '../../components/CustomButton';
+import {useNavigation} from '@react-navigation/native';
 
 const SignUp = () => {
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigation = useNavigation();
 
   const forgotPassPressed = () => {
     console.warn('Password Forgot');
@@ -17,7 +19,7 @@ const SignUp = () => {
   };
 
   const signInPressed = () => {
-    console.warn('Sign In');
+    navigation.navigate('SignIn');
   };
 
   const terms = () => {
@@ -67,7 +69,7 @@ const SignUp = () => {
         </Text>
       </Text>
 
-      <View style={styles.signUp}>
+      <View style={styles.signIn}>
         <Text>
           <Text style={styles.textNormal}>Already Have an account? </Text>
           <Text onPress={signInPressed} style={styles.textClick}>
@@ -84,6 +86,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 20,
     flex: 1,
+    backgroundColor: '#7460aa',
   },
   textNormal: {},
   textClick: {
@@ -102,7 +105,7 @@ const styles = StyleSheet.create({
     margin: 10,
   },
 
-  signUp: {
+  signIn: {
     flex: 1,
     justifyContent: 'flex-end',
   },

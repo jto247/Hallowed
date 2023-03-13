@@ -3,13 +3,17 @@ import React, {useState} from 'react';
 import Logo from '../../../assets/images/logo.png';
 import CustomInput from '../../components/CustomInput';
 import CustomBotton from '../../components/CustomButton';
+import {useNavigation} from '@react-navigation/native';
 
 const SignIn = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const {height} = useWindowDimensions();
+  const navigation = useNavigation();
+
   const onSignInPressed = () => {
     console.warn('Sign in');
+    //Validate
   };
 
   const forgotPassPressed = () => {
@@ -17,7 +21,7 @@ const SignIn = () => {
   };
 
   const signUpPressed = () => {
-    console.warn('Sign Up');
+    navigation.navigate('SignUp');
   };
 
   return (
@@ -49,12 +53,14 @@ const SignIn = () => {
 
       <CustomBotton text="Sign In" onPress={onSignInPressed} />
 
-      <Text>
-        <Text style={styles.textNormal}>Don't have an account? </Text>
-        <Text onPress={signUpPressed} style={styles.textClick}>
-          Sign Up{' '}
+      <View style={styles.signUp}>
+        <Text>
+          <Text style={styles.textNormal}>Don't have an account? </Text>
+          <Text onPress={signUpPressed} style={styles.textClick}>
+            Sign Up{' '}
+          </Text>
         </Text>
-      </Text>
+      </View>
     </View>
   );
 };
@@ -63,6 +69,8 @@ const styles = StyleSheet.create({
   root: {
     alignItems: 'center',
     padding: 20,
+    backgroundColor: '#7460aa',
+    flex: 1,
   },
 
   logo: {
@@ -73,6 +81,10 @@ const styles = StyleSheet.create({
   textNormal: {},
   textClick: {
     color: 'white',
+  },
+  signUp: {
+    flex: 1,
+    justifyContent: 'flex-end',
   },
 });
 export default SignIn;
