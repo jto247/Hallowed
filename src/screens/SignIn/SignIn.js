@@ -12,7 +12,7 @@ const SignIn = () => {
   const navigation = useNavigation();
 
   const onSignInPressed = () => {
-    console.warn('Sign in');
+    navigation.navigate('displayShoe');
     //Validate
   };
 

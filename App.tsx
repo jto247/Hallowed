@@ -3,6 +3,7 @@ import {SafeAreaView, StyleSheet, Text, useColorScheme} from 'react-native';
 import SignIn from './src/screens/SignIn';
 import SignUp from './src/screens/SignUp';
 import Navigation from './src/navigation';
+import {Canvas} from '@react-three/fiber';
 
 function App(): JSX.Element {
   return (

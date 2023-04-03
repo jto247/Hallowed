@@ -61,17 +61,17 @@ const SignUp = () => {
           By clicking Sign up, you agree to our{' '}
         </Text>
         <Text onPress={terms} style={styles.termsText}>
-          Terms and Conditions{' '}
+          Terms and Conditions
         </Text>
-        <Text style={styles.textNormal}>and </Text>
+        <Text style={styles.textNormal}> and </Text>
         <Text onPress={privacy} style={styles.termsText}>
-          Privacy Statement{' '}
+          Privacy Statement
         </Text>
       </Text>
 
       <View style={styles.signIn}>
         <Text>
-          <Text style={styles.textNormal}>Already Have an account? </Text>
+          <Text style={styles.textNormal}>Already have an account? </Text>
           <Text onPress={signInPressed} style={styles.textClick}>
             Sign In{' '}
           </Text>
