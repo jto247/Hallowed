@@ -14,6 +14,10 @@ const Dashboard = () => {
     navigation.navigate('Instructions');
   };
 
+  const displayShoe = () => {
+    navigation.navigate('DisplayShoe');
+  };
+
   const profile = () => {
     navigation.navigate('Profile');
   };
@@ -39,7 +43,7 @@ const Dashboard = () => {
       </Canvas>
 
       <CustomBotton text="Find Shoe Size" onPress={findShoe} />
-      <CustomBotton text="Shop" onPress={findShoe} />
+      <CustomBotton text="Shop" onPress={displayShoe} />
     </View>
   );
 };

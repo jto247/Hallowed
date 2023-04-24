@@ -12,12 +12,13 @@ const SignIn = () => {
   const navigation = useNavigation();
 
   const onSignInPressed = () => {
-    navigation.navigate('displayShoe');
+    navigation.navigate('Dashboard');
     //Validate
   };
 
   const forgotPassPressed = () => {
     console.warn('Password Forgot');
+    navigation.navigate('displayShoe');
   };
 
   const signUpPressed = () => {
