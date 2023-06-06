@@ -13,10 +13,6 @@ This is a mobile application built using React Native for Hallowed Footwear, a f
 
 The front end of the application is mostly completed, with all the essential features implemented. Application is able to display 3D models of shoes. The shoe model and mat file are currently stored within assets/images.
 
-## Screenshots
-
-*Screenshots of the application screens will be added here.*
-
 ## Prerequisites
 
 Before running the application, make sure you have the following:
@@ -82,6 +78,15 @@ Due to the time constraints of this capstone, there are many further implementat
 - Implement a way to connect the app to HallowedFootwear's products and also display them.
 - Flesh out the user profile screen (wanted to implement user profile pictures).
 
+
+
+## Current Screens
+![Screenshot_1685667739](https://github.com/jto247/Hallowed/assets/93173309/a40319f0-f692-4ad7-aa81-c588b46fb73c)
+![Screenshot_1685667745](https://github.com/jto247/Hallowed/assets/93173309/7f25bdb7-395a-4c57-88f9-e9495e4255d2)
+![Screenshot_1685667750](https://github.com/jto247/Hallowed/assets/93173309/3d364388-7e03-416c-a824-e82919971df4)
+![Screenshot_1685667816](https://github.com/jto247/Hallowed/assets/93173309/af989306-261c-4fb7-98c1-52813853dfdb)
+![Screenshot_1685669724](https://github.com/jto247/Hallowed/assets/93173309/cb5a0d46-e712-4235-a633-b2114ae6cad3)
+![Screenshot_1685669737](https://github.com/jto247/Hallowed/assets/93173309/3b29aa55-d133-49e8-b1c7-54bdd15d76e5)
 
 
 
