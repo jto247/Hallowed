@@ -81,12 +81,12 @@ Due to the time constraints of this capstone, there are many further implementat
 
 
 ## Current Screens
-![Screenshot_1685667739](https://github.com/jto247/Hallowed/assets/93173309/a40319f0-f692-4ad7-aa81-c588b46fb73c)
-![Screenshot_1685667745](https://github.com/jto247/Hallowed/assets/93173309/7f25bdb7-395a-4c57-88f9-e9495e4255d2)
-![Screenshot_1685667750](https://github.com/jto247/Hallowed/assets/93173309/3d364388-7e03-416c-a824-e82919971df4)
-![Screenshot_1685667816](https://github.com/jto247/Hallowed/assets/93173309/af989306-261c-4fb7-98c1-52813853dfdb)
-![Screenshot_1685669724](https://github.com/jto247/Hallowed/assets/93173309/cb5a0d46-e712-4235-a633-b2114ae6cad3)
-![Screenshot_1685669737](https://github.com/jto247/Hallowed/assets/93173309/3b29aa55-d133-49e8-b1c7-54bdd15d76e5)
+![Screenshot_1685667750](https://github.com/jto247/Hallowed/assets/93173309/a8c196a6-cbeb-435f-bba2-d83074b12a39)
+![Screenshot_1685667745](https://github.com/jto247/Hallowed/assets/93173309/035dc892-290b-4463-8f91-078fc237ed15)
+![Screenshot_1685667739](https://github.com/jto247/Hallowed/assets/93173309/f1111ded-87ae-43eb-9bf7-f7345bbcff8b)
+![Screenshot_1685669737](https://github.com/jto247/Hallowed/assets/93173309/67860b7a-0f2c-4a31-b11b-5951fbe37526)
+![Screenshot_1685669724](https://github.com/jto247/Hallowed/assets/93173309/491c8bb9-393d-41ce-b2b2-f06a158e0f71)
+![Screenshot_1685667816](https://github.com/jto247/Hallowed/assets/93173309/3fa12551-9c99-4b54-9d15-b4c20c2b6a23)
 
 
 
