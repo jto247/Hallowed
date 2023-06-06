@@ -58,8 +58,8 @@ function Shoe(props) {
   });
 
   return (
-    <mesh ref={mesh} rotation={[1, 0, 0]}>
-      <primitive object={obj} scale={10} />
+    <mesh ref={mesh} rotation={[1, 1, 0]}>
+      <primitive object={obj} scale={20} />
     </mesh>
   );
 }
@@ -68,19 +68,11 @@ export default function DisplayShoe() {
   const animatedSensor = useAnimatedSensor(SensorType.GYROSCOPE, {
     interval: 100,
   });
-  const navigation = useNavigation();
-
-  const dashBoard = () => {
-    navigation.navigate('Dashboard');
-  };
-
   return (
     <View style={styles.root}>
-      <CustomBotton text="Dashboard" onPress={dashBoard} />
       <Canvas>
         <ambientLight />
-        <pointLight position={[10, 10, 10]} />
-
+        <pointLight position={[0, 0, 0]} />
         <Suspense fallback={null}>
           <Shoe animatedSensor={animatedSensor} />
         </Suspense>
@@ -94,10 +86,11 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#7460aa',
     flex: 1,
-    height,
+    height: 350,
     width,
     position: 'absolute',
     zIndex: 3,
+    top: 200,
   },
   topSection: {
     padding: 20,

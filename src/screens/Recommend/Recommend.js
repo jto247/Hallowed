@@ -5,6 +5,8 @@ import CustomBotton from '../../components/CustomButton';
 import Logo from '../../../assets/images/logo.png';
 import {useNavigation} from '@react-navigation/native';
 import {Canvas} from '@react-three/fiber';
+import DisplayShoe from '../../screens/DisplayShoe';
+import {render, screen, fireEvent} from '@testing-library/react-native';
 
 const Recommend = () => {
   const navigation = useNavigation();
@@ -14,16 +16,25 @@ const Recommend = () => {
     navigation.navigate('Dashboard');
   };
 
+  const test = () => {
+    const start = performance.now();
+    render(<DisplayShoe />);
+    const end = performance.now();
+    const loadingTime = end - start;
+    console.log(loadingTime);
+  };
+
   return (
     <View style={styles.root}>
       <Text style={styles.textName}> Name, your shoe size is </Text>
       <Text style={styles.textTitle}> 10 </Text>
       <Text style={styles.textName}> Recommended Shoes </Text>
+      <DisplayShoe />
 
       <View style={styles.dashboard}>
         <CustomBotton
           text="Dashboard"
-          onPress={dashBoard}
+          onPress={test}
           style={styles.dashboard}
         />
       </View>

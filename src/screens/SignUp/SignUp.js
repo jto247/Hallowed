@@ -15,7 +15,7 @@ const SignUp = () => {
   };
 
   const onRegisterPressed = () => {
-    console.warn('Sign Up');
+    navigation.navigate('Dashboard');
   };
 
   const signInPressed = () => {

@@ -20,6 +20,16 @@ const Profile = () => {
         <Text style={styles.textName}> Email@example.com</Text>
       </View>
       <Text style={styles.textTitle}> Shoe Sizes</Text>
+      <Text style={styles.topSection}>
+        <Text style={styles.textName}> UK </Text>
+        <Text style={styles.textName}> US </Text>
+        <Text style={styles.textName}> EU </Text>
+      </Text>
+      <Text style={styles.topSection}>
+        <Text style={styles.textName}> 32 </Text>
+        <Text style={styles.textName}> 1{'  '} </Text>
+        <Text style={styles.textName}> 1 </Text>
+      </Text>
 
       <View style={styles.dashboard}>
         <CustomBotton
