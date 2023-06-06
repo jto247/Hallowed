@@ -1,6 +1,6 @@
 # Hallowed Footwear React Native Mobile Application
 
-This is a mobile application built using React Native for Hallowed Footwear, a fictional footwear e-commerce brand. The app was meant to be capable of scanning customer's foot sizes but hasn't been implemented yet.
+This is a mobile application built using React Native for Hallowed Footwear, a footwear e-commerce brand tailored towards customers with feet that have a little more sole. The app was meant to be capable of scanning customer's foot sizes but hasn't been implemented yet.
 
 ## Implemented Screens
 - Login
